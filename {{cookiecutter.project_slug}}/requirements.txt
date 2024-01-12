@@ -1,0 +1,12 @@
+altair
+jupyter
+jupytext
+numpy
+openpyxl
+pandas
+requests
+scikit-learn
+scikit-learn-intelex
+scipy
+seaborn
+statsmodels
