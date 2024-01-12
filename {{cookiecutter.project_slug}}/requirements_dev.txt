@@ -1,6 +1,6 @@
 pre-commit
 ruff
 cookiecutter
-mypy
+pyright
 pandas-stubs
 types-requests

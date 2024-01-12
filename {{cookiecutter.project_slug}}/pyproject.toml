@@ -44,7 +44,5 @@ skip-magic-trailing-comma = false
 # Like Black, automatically detect the appropriate line ending.
 line-ending = "auto"
 
-[tool.mypy]
-# Do not report an error if no type annotations for an imported module
-# useful when working with third-party libraries that don't have type stubs
-ignore_missing_imports = true
+[tool.pyright]
+reportMissingImports = false

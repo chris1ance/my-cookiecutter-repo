@@ -25,10 +25,10 @@ repos:
       language: python
       types_or: [python]
       require_serial: true
-    - id: mypy
-      name: mypy
-      description: "mypy"
-      entry: mypy --disallow-untyped-calls
+    - id: pyright
+      name: pyright
+      description: "pyright"
+      entry: pyright
       language: python
       types_or: [python]
       require_serial: true
