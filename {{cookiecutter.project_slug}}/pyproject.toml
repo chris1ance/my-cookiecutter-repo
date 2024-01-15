@@ -46,3 +46,5 @@ line-ending = "auto"
 
 [tool.pyright]
 reportMissingImports = false
+reportUnusedVariable = true
+pythonVersion = "3.11"
