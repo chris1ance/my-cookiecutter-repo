@@ -45,6 +45,7 @@ skip-magic-trailing-comma = false
 line-ending = "auto"
 
 [tool.pyright]
+typeCheckingMode = "standard"
 reportMissingImports = false
 reportUnusedVariable = true
 pythonVersion = "3.11"
