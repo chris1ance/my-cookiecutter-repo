@@ -4,3 +4,4 @@ cookiecutter
 pyright
 pandas-stubs
 types-requests
+pytest
