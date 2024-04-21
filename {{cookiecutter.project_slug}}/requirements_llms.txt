@@ -11,3 +11,5 @@ Jinja2
 gguf
 optimum
 accelerate
+bitsandbytes
+safetensors
