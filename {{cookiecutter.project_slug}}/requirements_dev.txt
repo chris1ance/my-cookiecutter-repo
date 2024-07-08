@@ -1,8 +1,5 @@
 pre-commit
 ruff
-cookiecutter
-pyright
-pandas-stubs
-types-requests
 pytest
 docformatter
+build
