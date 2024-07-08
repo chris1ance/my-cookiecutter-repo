@@ -1,3 +1,17 @@
+[project]
+name = "INSERTPROJECTNAME"
+version = "0.0.1"
+authors = [
+  { name="AUTHOR", email="EMAIL@domain.com" },
+]
+description = "DESCRIPTION"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [tool.ruff]
 
 # Same as Black.
