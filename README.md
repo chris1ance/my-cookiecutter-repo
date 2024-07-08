@@ -16,25 +16,21 @@ if conda env list | grep -q "$env_name"; then
     echo "Environment $env_name already exists."
 else
     # Create the environment
-    conda create -n "$env_name" python=3.11 cookiecutter poetry
+    conda create -n "$env_name" python=3.11 cookiecutter
 fi
 
 # Activate the environment
 conda activate "$env_name"
 
 # Create repo 
-#cookiecutter my-cookiecutter-repo --no-input project_slug="$project_name"
 cookiecutter https://github.com/chris1ance/my-cookiecutter-repo.git --no-input project_slug="$project_name"
 
 # Change dir to the new project dir
 cd "${project_name}"
 
-# Set up poetry
-poetry init --no-interaction
-poetry add `cat requirements.txt`
-poetry add `cat requirements_dev.txt` --group dev
-poetry update
-poetry install
+# Install basic reqs
+pip install -r requirements.txt
+pip install -r requirements_dev.txt
 
 # Git init
 git init .
