@@ -31,6 +31,7 @@ cd "${project_name}"
 # Install basic reqs
 pip install -r requirements.txt
 pip install -r requirements_dev.txt
+pip install -e .
 
 # Git init
 git init .
