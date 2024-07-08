@@ -1,6 +1,6 @@
 [project]
-name = "INSERTPROJECTNAME"
-version = "0.0.1"
+name = "{{cookiecutter.project_slug}}"
+version = "0.1.0"
 authors = [
   { name="AUTHOR", email="EMAIL@domain.com" },
 ]
