@@ -4,11 +4,6 @@ torchaudio
 gradio
 transformers
 huggingface-hub
-auto-gptq
-autoawq
-autoawq-kernels
-Jinja2
-gguf
 optimum
 accelerate
 bitsandbytes
