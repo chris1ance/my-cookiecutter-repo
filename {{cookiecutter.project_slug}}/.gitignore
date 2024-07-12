@@ -9,3 +9,4 @@ dist/
 *.pptx
 *.ipynb
 *.gguf
+.env
