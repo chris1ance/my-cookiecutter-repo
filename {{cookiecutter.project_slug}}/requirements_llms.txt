@@ -1,10 +1,15 @@
-torch
-torchvision
-torchaudio
 gradio
 transformers
+tokenizers
 huggingface-hub
 optimum
 accelerate
 bitsandbytes
 safetensors
+flash-attn
+einops
+sentence-transformers
+--find-links https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
