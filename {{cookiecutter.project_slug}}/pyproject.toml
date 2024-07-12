@@ -1,6 +1,10 @@
 [project]
 name = "{{cookiecutter.project_slug}}"
 version = "0.1.0"
+dependencies = [
+  "pandas",
+  "openpyxl"
+]
 authors = [
   { name="AUTHOR", email="EMAIL@domain.com" },
 ]
