@@ -1,3 +1,4 @@
+#### Core packages
 altair
 jupyter
 jupytext
@@ -10,3 +11,10 @@ scikit-learn-intelex
 scipy
 seaborn
 statsmodels
+### Dev packages
+pre-commit
+ruff
+pytest
+docformatter
+build
+python-dotenv

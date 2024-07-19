@@ -1,6 +1,0 @@
-pre-commit
-ruff
-pytest
-docformatter
-build
-python-dotenv
