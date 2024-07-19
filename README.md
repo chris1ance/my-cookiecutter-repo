@@ -27,6 +27,7 @@ cookiecutter https://github.com/chris1ance/my-cookiecutter-repo.git --no-input p
 
 # Change dir to the new project dir
 cd "${project_name}"
+touch .env
 
 # Install basic reqs
 pip install -r requirements.txt
