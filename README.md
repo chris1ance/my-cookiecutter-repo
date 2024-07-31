@@ -32,9 +32,8 @@ cookiecutter https://github.com/chris1ance/my-cookiecutter-repo.git --no-input p
 cd "${project_name}"
 touch .env
 
-# Install basic reqs
-pip install -r requirements.txt
-pip install -e .
+# Install package locally in editable mode, include dev deps
+pip install -e .[dev]
 
 # Git init
 git init .
