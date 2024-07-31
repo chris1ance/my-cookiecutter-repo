@@ -1,22 +1,10 @@
 #### Core packages
 altair
-jupyterlab
-notebook
-jupytext
-numpy
 openpyxl
-pandas
+pandas # includes: numpy
 requests
 scikit-learn
 scikit-learn-intelex
 scipy
 seaborn
 statsmodels
-### Dev packages
-pre-commit
-ruff
-pytest
-docformatter
-build
-hatch
-python-dotenv

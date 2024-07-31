@@ -16,6 +16,20 @@ requires-python = ">=3.9"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[project.optional-dependencies]
+dev = [
+    "jupyterlab",
+    "notebook",
+    "jupytext",
+    "pre-commit",
+    "ruff",
+    "pytest",
+    "docformatter",
+    "build",
+    "hatch",
+    "python-dotenv"
+]
+
 [tool.ruff]
 line-length = 109
 indent-width = 4
