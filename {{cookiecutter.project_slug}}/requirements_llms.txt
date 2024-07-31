@@ -6,10 +6,11 @@ optimum
 accelerate
 bitsandbytes
 safetensors
-flash-attn
 einops
 sentence-transformers
 --find-links https://download.pytorch.org/whl/cu121
-torch
-torchvision
-torchaudio
+torch<2.4
+torchvision<2.4
+torchaudio<2.4
+# Optional dependencies not installed here:
+# flash-attn

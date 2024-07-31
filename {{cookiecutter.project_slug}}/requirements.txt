@@ -1,6 +1,7 @@
 #### Core packages
 altair
-jupyter
+jupyterlab
+notebook
 jupytext
 numpy
 openpyxl
@@ -17,4 +18,5 @@ ruff
 pytest
 docformatter
 build
+hatch
 python-dotenv
