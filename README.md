@@ -7,8 +7,11 @@
 # Run this script using command: source make_repo.sh project_name
 # Replace project_name with your desired repo name
 
-# Specify the desired environment name
+# Assign parameters
 project_name=$1
+python_version=$2
+
+# Specify the desired environment name
 env_name="${project_name}_env"
 
 # Check if the environment already exists
@@ -16,7 +19,7 @@ if conda env list | grep -q "$env_name"; then
     echo "Environment $env_name already exists."
 else
     # Create the environment
-    conda create -n "$env_name" python=3.11 cookiecutter
+    conda create -n "$env_name" python="$python_version" cookiecutter
 fi
 
 # Activate the environment
